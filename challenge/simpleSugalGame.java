@@ -24,8 +24,10 @@ public class simpleSugalGame {
 
         if(play == 'y') {
             System.out.println("Welcome to the Sugal Guessing Game!");
-            
+            System.out.print("Guess number (0-9): ");
+            int guess = s.nextInt();
 
         }
     }    
+
 }
